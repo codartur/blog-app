@@ -393,7 +393,7 @@ DEPENDENCIES
   kamal
   kaminari (~> 1.2)
   minitest-utils
-  pg
+  pg (>= 9.3)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
@@ -403,7 +403,6 @@ DEPENDENCIES
   solid_cable
   solid_cache
   solid_queue
-  sqlite3 (>= 2.1)
   stimulus-rails
   thruster
   turbo-rails
